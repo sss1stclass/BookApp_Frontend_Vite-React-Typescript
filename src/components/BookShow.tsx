@@ -13,10 +13,10 @@ const BookShow = ({ bookData, onDelete, onUpdate }: any) => {
     onDelete(bookData.id)
   }
 
-  let content = <h3>{bookData.title}</h3>
-  if (edit) {
-    content = <BookEdit />
-  }
+  // let content = <h3>{bookData.title}</h3>
+  // if (edit) {
+  //   content = <BookEdit />
+  // }
 
   return (
     <div className='book-show'>
